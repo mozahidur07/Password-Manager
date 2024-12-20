@@ -22,7 +22,7 @@ function App() {
         transition="Slide"
       />
       <Navbar/>
-      <div className='min-h-[85vh]'> 
+      <div className='min-h-[86vh]'> 
       <Manager/>
       </div>
       <Footer/>
