@@ -43,7 +43,6 @@ const Manager = () => {
       return;
     }
     setpasswordArry([...passwordArry, { ...form, id: uuidv4() }]);
-    toast.success('Added Successfully !', { autoClose: 2000 });
     localStorage.setItem(
       "password",
       JSON.stringify([...passwordArry, { ...form, id: uuidv4() }])
