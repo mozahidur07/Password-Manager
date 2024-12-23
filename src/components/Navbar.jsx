@@ -7,11 +7,9 @@ const Navbar = () => {
       <div className="mainlogo ml-4 p-3">
         <a href='/'>Password <span className='text-purple-500'>Saver</span></a>
       </div>
-      <ul className='right-containt mr-4 '>
-        <li className='content p-4'>
-          <a href='/'>Home</a>
-          <a href='/faq'>FAQ</a>
-          <a href='/contact'>Contact</a>
+      <ul className='right-containt'>
+        <li className='content p-3 mx-4'>
+          <a href='https://mozahidur.vercel.app/contact' target='_blank'>Contact</a>
         </li>
       </ul>
     </nav>

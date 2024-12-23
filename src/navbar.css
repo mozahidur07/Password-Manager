@@ -1,3 +1,6 @@
+body::-webkit-scrollbar {
+    display: none; 
+}
 .navbar {
     border-bottom: 2px solid white;
 }
@@ -9,7 +12,7 @@
 }
 .content {
     display: flex;
-    justify-content: space-between;
+    justify-content: end;
 }
 .mainlogo {
     display: flex;
